@@ -10,8 +10,11 @@ Interfaces with academic search APIs (e.g., arXiv, Semantic Scholar, PubMed) to 
 
 ### 3. RankAgent
 Scores and ranks papers using a multi-criteria strategy including:
+
 ○ Citation count
+
 ○ Publication date
+
 ○ Relevance to keywords (inferred through an external LLM API such as Together.ai)
 
 ### 4. SummaryAgent
