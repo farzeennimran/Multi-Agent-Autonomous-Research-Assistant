@@ -1,4 +1,4 @@
-# Multi-Agent-Autonomous-Research-Assistant
+# Multi-Agent Autonomous Research Assistant
 
 - Dataset was taken from: arXiv summarization dataset https://huggingface.co/datasets/ccdv/arxiv-summarization (abstracts + full papers) 
 - Pre-trained LLM model i.e. Mistral 7B with LoRA fine-tuning
