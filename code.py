@@ -1,3 +1,5 @@
+#contains all parts of the agents with all the reqs too
+
 #Setup
 !pip install -q datasets transformers peft accelerate evaluate rouge_score nltk bert_score
 
