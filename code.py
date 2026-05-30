@@ -1,5 +1,5 @@
 #Setup
-!pip install -q datasets transformers peft accelerate evaluate rouge_score nltk bert_score
+pip install -q datasets transformers peft accelerate evaluate rouge_score nltk bert_score
 
 import os
 import torch
@@ -57,7 +57,6 @@ test_data = tokenized_dataset.select(range(train_size + val_size, len(tokenized_
 
 #Fine-Tuning with LoRA (no quantization)
 model = AutoModelForSeq2SeqLM.from_pretrained(BASE_MODEL)
-
 
 lora_config = LoraConfig(
     r=8,
